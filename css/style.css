@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* Estilos para el header */
+header .top-header .contenedor {
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .top-header {
+    padding: 6px 0;
+    font-size: 12px;
+    border-bottom: 1px solid #f0f0f0;
+    background: #fafafa;
+    overflow: hidden;
+}
+
+.top-header .contenedor .top-menu {
+    float: left;
+}
+
+.top-header .contenedor .top-menu ul li {
+    padding: 10px 15px;
+    list-style: none;
+    display: inline-block;
+}
+
+.top-header .contenedor .top-redes {
+    float: right;
+}
+
+.top-header .contenedor .top-redes ul li {
+    padding: 10px 15px;
+    list-style: none;
+    display: inline-block;
+}
+
+ul li a {
+    color: #363640;
+    text-decoration-line: none;
+}
+
+ul li a:hover {
+    color: #8b919c;
+}
+
+.titulo-principal {
+    margin: 35px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.titulo-principal .contenedor h1 a {
+    text-decoration: none;
+    color: #363640;
+    font-size: 69px;
+    display: inline-block;
+    padding: 30px;
+    font-weight: 300;
+}
+
+.titulo-principal .contenedor h1 a:hover {
+    color: #8b919c;
+}
+
+.titulo-principal .contenedor p {
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 10px 40px;
+    color: #8b919c;
+}
+
+main .banner {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+main .banner .mi-perfil {
+    width: 100%;
+}
+
+main .banner .mi-perfil img {
+    width: 350px;
+    display: block;
+    margin: auto;
+}
+
+footer {
+    background: #fff;
+    padding: 40px;
+    border: 1px solid #f0f0f0;
+    text-align: center;
+    color: #363940;
+}
