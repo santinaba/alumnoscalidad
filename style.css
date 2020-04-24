@@ -1,0 +1,97 @@
+body,*,div,nav,img{
+    overflow: hidden;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+}
+.container .header-perfil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color:rgba(0,0,0,.8);
+}
+.container .header-perfil .fondo-perfil{
+    width: 80%;    
+    height: 30em;
+    background-image: url('./img/fondo-perfil.jpg');
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container .header-perfil .fondo-perfil .foto-perfil{
+    position: absolute;
+    
+  
+}
+.container .header-perfil .fondo-perfil .foto-perfil img{
+    width: 15em;
+    border-radius: 50%;
+    border: black solid 5px;
+    object-fit: cover;
+
+    
+}
+.body-perfil-name{
+    background-color:rgba(0,0,0,.8);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    
+}
+.body-perfil-name .perfil-name{
+    font-size: 3em;
+}
+.body-perfil-name .developer{
+    width:100%;
+    text-align: center;
+    font-size: 1.5em;
+    color: rgba(255,255,255,.5);
+
+}   
+.body-perfil-name .redes-sociales{
+    display: flex;
+    width: 100%;
+    color: rgba(255,255,255,.7);
+    justify-content: center;
+}
+.body-perfil-name .redes-sociales a{
+    display: inline-block;
+    width: 50px;
+    color: white;
+    font-size: 2.5em;
+    margin: 0.5em 1em 0 1em;
+    cursor:pointer;
+}
+.body-perfil-name .redes-sociales a img:hover{
+    background:rgba(255,255,255,.5);
+    color: white;
+}
+
+a{
+    color: white;
+    
+} 
+.class-repository a{ 
+    margin: 0;
+    display: inline-block;
+    font-size: 2em;
+    text-decoration: none;
+
+}
+.class-repository a:hover{
+    background-color: rgba(255,255,255,.1);
+    text-decoration: underline;
+}
+
+
