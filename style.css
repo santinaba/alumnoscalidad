@@ -8,6 +8,7 @@ body,*,div,nav,img{
 .container{
     height: 100vh;
     width: 100vw;
+    min-width: 360px;
 }
 .container .header-perfil{
     display: flex;
@@ -95,3 +96,21 @@ a{
 }
 
 
+@media screen and (max-width:768px){
+    .container .header-perfil .fondo-perfil{
+        height: 20em;
+    }
+    .container .header-perfil .fondo-perfil .foto-perfil img{
+        width: 10em;
+    }
+    .body-perfil-name .perfil-name{
+        font-size: 1.8em ;
+    }
+    .body-perfil-name .developer{
+        font-size: 1.2em;
+    }
+    .class-repository a{
+        font-size:1.5em;
+    }
+    
+}
